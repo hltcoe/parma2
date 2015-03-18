@@ -1,0 +1,17 @@
+
+NOTE: this is for the ACL 2013 paper
+http://www.cs.jhu.edu/~vandurme/papers/PARMA:ACL:2013.pdf
+
+l1_sweep:
+	- just try L1 penalty in 10^-2 .. 10^3 to see what works
+	- should not need to be re-run unless features change a lot
+
+ablation_up
+	- lemma
+	- lemma + f1
+
+ablation_down
+	- all features
+	- all features - f1
+
+
