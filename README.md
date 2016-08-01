@@ -4,7 +4,7 @@ parma2
 Parma is a Predicate ARguMent Alignment tool, described in the following
 publications:
 
-Predicate Argument Alignment using a Global Coherence Model
+[Predicate Argument Alignment using a Global Coherence Model](http://www.aclweb.org/anthology/N15-1002)
 Travis Wolfe, Mark Dredze, Benjamin Van Durme. NAACL 2015
 
 [PARMA: A Predicate Argument Aligner](http://www.aclweb.org/anthology/P13-2012)
@@ -25,6 +25,5 @@ feature described in the NAACL paper.
 After you have those jars (and put them in a lib/ directory),
 the other dependencies are handled by sbt.
 
-The data for running everything can be found [here](http://www.cs.jhu.edu/~travis/data/parma-data.tgz)
-and should be put in (or symlinked to) a directory in the project folder called data.
-
+The data for the EECB and RF data can be found [here](http://www.cs.jhu.edu/~travis/data/eecb-and-rf.concrete.tgz)
+and the MTC data from the first paper [here](http://www.cs.jhu.edu/~travis/data/mtc.tgz).
